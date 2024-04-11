@@ -11,6 +11,7 @@ body {
 .container {
     width: 90%;
     margin: auto;
+    overflow: hidden;
 }
 
 .main-header {
@@ -36,7 +37,7 @@ body {
 
 .nav-list a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 .nav-list a:hover {
@@ -44,7 +45,11 @@ body {
 }
 
 .nav-list li {
+    background-color: black;
+    color: white;
     list-style: none;
-    border-bottom: 1px solid #ccc;
+
+    border-radius: 16px;
     margin: 16px;
+    padding: 16px;
 }

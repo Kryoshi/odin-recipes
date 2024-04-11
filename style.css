@@ -30,6 +30,15 @@ body {
     color: inherit;
 }
 
+.main-footer {
+    background-color: peachpuff;
+    padding: 16px;
+}
+
+.main-footer a {
+    color: inherit
+}
+
 .banner {
     max-height: 300px;
 }

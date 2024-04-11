@@ -53,11 +53,10 @@ body {
 }
 
 .nav-list li {
-    background-color: black;
-    color: white;
+    color: black;
     list-style: none;
 
-    border-radius: 16px;
+    border-bottom: 1px solid #ccc;
     margin: 16px;
     padding: 16px;
 }

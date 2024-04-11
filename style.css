@@ -31,8 +31,7 @@ body {
 }
 
 .banner {
-    width: 100%;
-    height: 300;
+    max-height: 300px;
 }
 
 .banner img {
@@ -41,6 +40,7 @@ body {
 
 .nav-list {
     margin: 16px;
+    padding: 32px 0;
 }
 
 .nav-list a {
